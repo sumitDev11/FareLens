@@ -881,7 +881,8 @@ const AboutPage = () => (
             </div>
             <div style={{ display: "flex", gap: 10 }}>
               <a
-                href="#"
+                href={teamDetails[2].github}
+                target="_blank"
                 aria-label="GitHub"
                 style={{
                   width: 38,
@@ -912,7 +913,8 @@ const AboutPage = () => (
                 <Github size={16} />
               </a>
               <a
-                href="#"
+                href={teamDetails[2].linkedin}
+                target="_blank"
                 aria-label="LinkedIn"
                 style={{
                   width: 38,
@@ -943,7 +945,8 @@ const AboutPage = () => (
                 <Linkedin size={16} />
               </a>
               <a
-                href="#"
+                href={teamDetails[2].portfolio}
+                target="_blank"
                 aria-label="Portfolio"
                 style={{
                   width: 38,
