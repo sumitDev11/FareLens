@@ -50,7 +50,7 @@ const Navbar = () => {
             to="/working"
             className="change-on-hover hover-to-scale transition-colors duration-300"
           >
-            It's Working
+            Workflow
           </Link>
           <Link
             to="/about"
